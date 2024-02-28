@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 100%;
+            background: url(lo.jpeg);
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+            position: relative;
+            font-family: sans-serif;
+        }
+
+        .navbar {
+            width: 86%;
+            display: flex;
+            margin: auto;
+            padding: 15px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .navbar.logo {
+            width: 160px;
+            cursor: pointer;
+            margin-top: -3%;
+            margin-left: -2%;
+        }
+
+        url {
+            margin-top: -4%;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            padding: 10px 16px;
+        }
+
+        ul li a {
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            color: darkslategray;
+            margin-top: -3%;
+            transition: -4s ease;
+            content: center;
+        }
+
+        ul li a:hover {
+            color: rgb(230, 104, 59);
+
+        }
+
+        .info {
+            margin-left: 7%;
+            margin-top: 6%;
+        }
+
+        .info h1 {
+            font-size: 65px;
+            color: rgb(36, 32, 30);
+        }
+
+        .info h3 {
+            font-size: 18px;
+            letter-spacing: 1px;
+            line-height: 24px;
+        }
+       .info1 h1{
+            
+            font-size: 30px;
+            letter-spacing: 1px;
+            line-height: 30px;
+            fo-color: black;
+            
+            
+        }
+        .info1 h1{
+            color: rgb(230, 104, 59);
+        }
+
+        .info span {
+            color: rgb(230, 104, 59)
+        }
+
+        .info a {
+            text-decoration: none;
+            color: #fff;
+            background: rgb(36, 32, 30);
+            margin: 26px 0;
+            padding: 10px 18px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .info a:hover {
+            background: rgb(59, 174, 209);
+
+        }
+
+        .image {
+            width: 30%;
+            height: 60%;
+            position: absolute;
+            right: 100px;
+            bottom: 0;
+
+        }
+
+        .image img {
+            position: absolute;
+            height: 120%;
+            width: 100%;
+            left: 50%;
+            transform: translate(-55%);
+            bottom: 0;
+            transition: right 2s ease;
+        }
+
+        .image:hover.subi {
+            left: 55%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal</title>
+    <!-- <link rel="stylesheet" href="p.css"> -->
+</head>
+
+<body>
+    <div class="main">
+        <div class="navbar">
+         <div class="info1"> <h1> PORTFOLIO </h1></div>
+            <!-- <img src="logo.jpeg" height="150px" class="logo"> -->
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">MY WORKS</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </div>
+        <div class="info">
+            
+            <h3><br>Hi, I'm <span>SUBITHA.</span></h3>
+            <h1><span>Soft</span><span>ware</span>Developer</h1>
+            <h3> Developer and Designer from chennai.
+                I create,<br>websites to do businesses do better <br>online.
+            </h3>
+            <a href="#">Hire Me</a>
+        </div>
+        <div class="image">
+            <img src="subi.jpeg" class="subi" alt="">
+
+        </div>
+
+    </div>
+</body>
+
+</html>

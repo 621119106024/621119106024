@@ -1,0 +1,52 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: green;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:orange;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.blog-post {
+    width: 300px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+    color: #333;
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+.post-date {
+    color:brown;
+    font-size: 0.9em;
+    margin: 0 0 1em 1em;
+}
+
+.post-content {
+    color: #555;
+    text-align: justify;
+    padding: 0 1em 1em 1em;
+}
+
+.post-content p {
+    margin-bottom: 1em;
+}
+ 
